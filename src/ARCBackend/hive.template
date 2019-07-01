@@ -1,0 +1,44 @@
+# Hive template file
+# Lines beginning with a hash are comments
+# Hive template version follows:
+@version 0.2
+@reference /ref
+# Version 0.2 - The base information provided for the hierarchy is now
+# moved to a special reference folder /ref/
+# Version 0.3 - Making some general changes.
+#
+# Actual data should be stored in /0001, /0002, etc.
+/records
+/hiveversion
+/ref/raw
+/ref/sourceurl
+/ref/timestamp
+/ref/provenance
+/ref/base/language
+/ref/base/entity/raw
+/ref/base/entity/name
+/ref/base/entity/corporateid
+/ref/base/entity/taxid
+/ref/base/entity/industry
+/ref/base/entity/address/raw
+/ref/base/entity/address/street
+/ref/base/entity/address/city
+/ref/base/entity/address/country
+/ref/base/entity/address/zipcode
+/ref/base/sanction/raw
+/ref/base/sanction/legalgrounds
+/ref/base/sanction/duration
+/ref/base/sanction/startdate
+/ref/base/sanction/enddate
+/ref/base/sanction/lastupdate
+/ref/base/sanction/fineamount
+/ref/base/sanction/sanctionid
+/ref/base/sanction/jursidictionalscope
+/ref/base/sanction/authority/raw
+/ref/base/sanction/authority/name
+/ref/base/sanction/authority/country
+/ref/base/sanction/authority/authorityid
+/ref/base/sanction/authority/contact
+/ref/base/procurement/procuringentity
+/ref/base/procurement/typeofprocurement
+/ref/localization/
